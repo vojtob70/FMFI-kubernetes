@@ -17,4 +17,3 @@ nodes:
     hostPort: 443
     protocol: TCP
 EOF
-
