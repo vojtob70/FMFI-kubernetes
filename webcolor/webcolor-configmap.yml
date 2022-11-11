@@ -3,4 +3,5 @@ kind: ConfigMap
 metadata:
   name: webcolor-configmap
 data:
-  APP_COLOR: red
+#  accepted values: red,green,blue,blue2,pink,darkblue
+  APP_COLOR: blue2

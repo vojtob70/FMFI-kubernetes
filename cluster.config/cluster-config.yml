@@ -4,6 +4,8 @@ nodes:
 - role: control-plane
   extraPortMappings:
   - containerPort: 30950
+# pre http-echo app
     hostPort: 5678
   - containerPort: 30953
+# pre webcolor app
     hostPort: 8888
