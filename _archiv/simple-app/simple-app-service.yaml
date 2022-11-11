@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: "simple-app-service"
+spec:
+  selector:
+    app: "simple-app"
+  ports:
+    - port: 8080
+
