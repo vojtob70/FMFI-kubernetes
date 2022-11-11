@@ -20,7 +20,7 @@ choco install kind
 ```bash
 choco install kubernetes-cli
 ```
-- choclatey install
+- chocolatey install
 ```bash
 https://chocolatey.org/install
 ```
