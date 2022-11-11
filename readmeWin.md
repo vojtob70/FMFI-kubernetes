@@ -31,23 +31,14 @@ kind delete cluster
 bash ./kind.create.cluster.sh
 ```
 
-### add ingress 
-
+### add http-echo app
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
+kubectl apply -f http-echo
 ```
+http://localhost:5678
 
-### add test-deployment
+### add webcolor
 ```bash
-kubectl apply -f test-deployment.yaml
+kubectl apply -f webcolor
 ```
-
-### add test-service
-```bash
-kubectl apply -f test-service.yaml
-```
-
-### add test-ingress
-```bash
-kubectl apply -f test-ingress.yaml
-```
+http://localhost:8888
