@@ -19,7 +19,7 @@ spec:
       - name: http-echo-app
         image: hashicorp/http-echo:0.2.3
         args:
-        - "-text= ====  Hello world!!!  popo ===="
+        - "-text= ====  Hello world!!!  ===="
         ports:
         - containerPort: 5678
         resources:

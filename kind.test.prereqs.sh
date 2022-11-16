@@ -6,3 +6,5 @@ go version
 echo
 echo '-----------  kind  --------------'
 kind version
+echo '----------- kubectl -------------'
+kubectl version
