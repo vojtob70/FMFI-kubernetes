@@ -6,9 +6,21 @@ https://kind.sigs.k8s.io/
 ### Prereqs
 - docker installed  (https://www.docker.com)
 - go installed  (https://golang.org)
+```
+wget https://go.dev/dl/go1.19.4.linux-amd64.tar.gz
+```
+go instalovat podla postupu https://go.dev/doc/install
+
 - kind installed 
 ```bash
 go install sigs.k8s.io/kind@v0.16.0
+```
+- kubectl installed
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+```
+curl -LO https://dl.k8s.io/release/v1.25.0/bin/linux/amd64/kubectl
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+kubectl version --client
 ```
 
 ### create kubernetes cluster by kind with ingress ready
