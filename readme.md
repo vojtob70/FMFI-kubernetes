@@ -10,11 +10,20 @@ https://kind.sigs.k8s.io/
 wget https://go.dev/dl/go1.19.4.linux-amd64.tar.gz
 ```
 go instalovat podla postupu https://go.dev/doc/install
+```
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.4.linux-amd64.tar.gz
+```
 
 - kind installed 
 ```bash
 go install sigs.k8s.io/kind@v0.16.0
 ```
+
+do premennej prostredia PATH pridat:
+```
+echo $(go env GOPATH)/bin
+```
+
 - kubectl installed
 https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 ```
