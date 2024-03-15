@@ -36,9 +36,11 @@ bash ./kind.create.cluster.sh
 kubectl apply -f http-echo
 ```
 http://localhost:5678
+http://localhost:30950
 
 ### add webcolor
 ```bash
 kubectl apply -f webcolor
 ```
 http://localhost:8888
+http://localhost:30953
