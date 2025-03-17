@@ -17,8 +17,7 @@ spec:
     spec:
       containers:
       - name: http-echo-app
-        image: hashicorp/http-echo:0.2.3
-        #image: k8s.gcr.io/echoserver-arm:1.8
+        image: hashicorp/http-echo:1.0
         args:
         - "-text= ====  Hello world!!!  ===="
         ports:
